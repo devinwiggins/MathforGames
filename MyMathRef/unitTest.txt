@@ -1,0 +1,214 @@
+vector2 example: 
+<5, 4>
+
+this vector will be added to the below vector to show vector addition
+<4, 5>
+
+addition result: 
+<9, 9>
+
+the first vector will be subtracted from the second vector to show vector subtraction
+<1, -1>
+
+the first vector will be scaled by 5 to show scaler multiplication
+<25, 20>
+
+the same vector2 will have its magnitude displayed
+6.40312
+
+now it will be normalized
+<0.78, 0.624>
+
+the dotproduct of the same 2 vector2's: 
+40
+vector3 example: 
+<5, 4, 1>
+
+this vector will be added to the below vector to show vector addition
+<4, 5, 1>
+
+addition result: 
+<9, 9, 2>
+
+the first vector will be subtracted from the second vector to show vector subtraction
+<1, -1, 0>
+
+the first vector will be scaled by 5 to show scaler multiplication
+<25, 20, 5>
+
+the same vector3 will have its magnitude displayed
+6.48074
+
+now it will be normalized
+<0.78, 0.624>
+
+the dotproduct of the same 2 vector3's: 
+41
+ the cross product of the 2 vector3's: 
+<-1, -1, 9>
+
+vector4 example: 
+<5, 4, 1, 2>
+
+this vector will be added to the below vector to show vector addition
+<4, 5, 1, 2>
+
+addition result: 
+<9, 9, 2>
+
+the first vector will be subtracted from the second vector to show vector subtraction
+<1, -1, 0, 0>
+
+the first vector will be scaled by 5 to show scaler multiplication
+<25, 20, 5, 10>
+
+the same vector4 will have its magnitude displayed
+6.78233
+
+now it will be normalized
+<0.737, 0.589, 0.147, 0.294>
+
+the dotproduct of the same 2 vector4's: 
+41
+Matrix2x2 example: 
+X {0, 1}
+Y {1, 3}
+
+the previous matrix will be multiplied by the matix below to show matrix2 by matrix2
+X {1, 1}
+Y {1, 3}
+
+mulitplication result: 
+X {1, 3}
+Y {4, 10}
+
+the first matrix of the 2 multiplied will be multiplied by this vector2 to show matrix2 by Vector2 multiplication
+<6, 24>
+
+Matrix3x3 example: 
+X {1, 0, 0}
+Y {0, 1, 0}
+Z {0, 0, 1}
+
+the 2 3x3 Matrices below will be multiplied to show matrix3x3 by matrix3x3 multiplication
+X {1, 2, 3}
+Y {2, 4, 5}
+Z {2, 6, 8}
+
+and
+X {1, 3, 7}
+Y {1, 2, 5}
+Z {3, 4, 6}
+
+result: 
+X {12, 19, 35}
+Y {21, 34, 64}
+Z {32, 50, 92}
+
+the first matrix of the 2 multiplied will be multiplied by this vector3 to show matrix3 by Vector3 multiplication
+<6, 6, 3>
+
+Mutiplication result: 
+<36, 66, 48>
+
+Matrix3x3 X rotation by 90 degrees example: 
+result: 
+X {1, 0, 0}
+Y {0, -0.448, -0.893}
+Z {0, 0.893, -0.448}
+
+expected result: 
+X {1, 0, 0}
+Y {0, 0, 1}
+Z {0, 1, 0}
+
+Matrix3x3 Y rotation by 90 degrees example: 
+result: 
+X {-0.448, 0, 0.893}
+Y {0, 1, 0}
+Z {-0.893, 0, -0.448}
+
+expected result: 
+X {0, 0, 1}
+Y {0, 1, 0}
+Z {1, 0, 0}
+
+Matrix3x3 Z rotation by 90 degrees example: 
+result: 
+X {-0.448, -0.893, 0}
+Y {0.893, -0.448, 0}
+Z {0, 0, 1}
+
+expected result: 
+X {0, 1, 0}
+Y {1, 0, 0}
+Z {0, 0, 1}
+
+Matrix4x4 example: 
+X {1, 0, 0, 0}
+Y {0, 1, 0, 0}
+Z {0, 0, 1, 0}
+W {0, 0, 0, 1}
+
+the 2 4x4 Matrices below will be multiplied
+X {0, 2, 0, 2}
+Y {0, 0, 1, 2}
+Z {1, 1, 4, 2}
+W {4, 2, 1, 2}
+
+X {9, 2, 3, 4}
+Y {1, 2, 6, 4}
+Z {2, 4, 6, 8}
+W {3, 5, 7, 8}
+
+multiplication
+X {8, 14, 26, 24}
+Y {8, 14, 20, 24}
+Z {24, 30, 47, 56}
+W {46, 26, 44, 48}
+
+the first matrix of the 2 multiplied will be multiplied by this vector 4 to show matrix4 by Vector4 multiplication
+<6, 6, 3, 4>
+
+reult: 
+<108, 78, 66, 92>
+
+Matrix4x4 X rotation by 90 degrees example: 
+result:
+X {1, 0, 0, 0}
+Y {0, -0.448, -0.893, 0}
+Z {0, 0.893, -0.448, 0}
+W {0, 0, 0, 1}
+
+expected result: 
+X {1, 0, 0, 0}
+Y {0, 0, 1, 0}
+Z {0, 1, 0, 0}
+W {0, 0, 0, 1}
+
+Matrix4x4 Y rotation by 90 degrees example: 
+result: 
+X {-0.448, 0, 0.893, 0}
+Y {0, 1, 0, 0}
+Z {-0.893, 0, -0.448, 0}
+W {0, 0, 0, 1}
+
+expected result: 
+X {0, 0, 1, 0}
+Y {0, 1, 0, 0}
+Z {1, 0, 0, 0}
+W {0, 0, 0, 1}
+
+Matrix4x4 Z rotation by 90 degrees example: 
+result: 
+X {-0.448, -0.893, 0, 0}
+Y {0.893, -0.448, 0, 0}
+Z {0, 0, 1, 0}
+W {0, 0, 0, 1}
+
+expected result: 
+X {0, 1, 0, 0}
+Y {1, 0, 0, 0}
+Z {0, 0, 1, 0}
+W {0, 0, 0, 1}
+
