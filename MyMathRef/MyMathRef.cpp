@@ -2,7 +2,7 @@
 //
 
 #include "stdafx.h"
-#include "MyMathLib\MyMathLib.h"
+#include "MyMathLib.h"
 
 using namespace std;
 
@@ -103,7 +103,7 @@ int main()
 	Vector2 Vec2 = Vector2(6, 6);
 
 	cout << "-------READ ME----------\n";
-	cout << "the txt file containing proof of my math library's math and being able to print to a file can be found in the folling directory: \nMyMathLib/MyMathRef/unitTest.txt \n";
+	cout << "the txt file containing proof of my math library's math and being able to print to a file can be found in the following directory: \nMyMathLib/MyMathRef/unitTest.txt \n";
 
 	outputfile.open("unitTest.txt", ios_base::out);
 	if (outputfile.is_open() == true)
